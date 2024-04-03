@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<settings>
-  <minWidthMainWindow>300</minWidthMainWindow>
-  <minHeightMainWindow>150</minHeightMainWindow>
-  <minWidthAdditionalWindow>370</minWidthAdditionalWindow>
-  <minHeightAdditionalWindow>200</minHeightAdditionalWindow>
-  <maxWidthAdditionalWindow>680</maxWidthAdditionalWindow>
-  <maxHeightAdditionalWindow>600</maxHeightAdditionalWindow>
-</settings>
