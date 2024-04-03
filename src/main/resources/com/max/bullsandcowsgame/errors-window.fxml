@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.max.bullsandcowsgame.ErrorsController"
+            fx:id="errorsBody">
+
+    <center>
+        <TextArea fx:id="errorsArea" wrapText="true">
+        </TextArea>
+    </center>
+
+    <bottom>
+        <BorderPane>
+            <center>
+                <Button fx:id="closeButton" text="OK" onAction="#errorsClose" maxWidth="Infinity">
+<!--                    <BorderPane.margin>-->
+<!--                        <Insets>-->
+<!--                            <top>5</top>-->
+<!--                            <bottom>5</bottom>-->
+<!--                        </Insets>-->
+<!--                    </BorderPane.margin>-->
+                </Button>
+            </center>
+        </BorderPane>
+    </bottom>
+</BorderPane>
